@@ -648,6 +648,15 @@ function optimizedScroll() {
 }
 
 window.addEventListener('scroll', optimizedScroll);
+let cat = document.getElementById("catImage");
+
+function openCat() {
+  cat.src = "cat-open.jpg";
+}
+
+function closeCat() {
+  cat.src = "cat-closed.jpg";
+}
 
 
 // ========================================
