@@ -1,0 +1,30 @@
+.typing {
+  overflow: hidden;
+  border-right: .15em solid pink;
+  white-space: nowrap;
+  animation: typing 3s steps(40, end), blink .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  from, to { border-color: transparent }
+  50% { border-color: pink }
+}
+
+.quiz-btn {
+  display: block;
+  margin: 10px auto;
+  padding: 12px 25px;
+  background: #f472b6;
+  color: white;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.quiz-btn:hover {
+  background: #ec4899;
+}
